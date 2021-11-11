@@ -36,8 +36,7 @@ Route::get('/home/{bb}/edit',   [HomeController::class, 'showEditBbForm'])->    
 Route::patch('/home/{bb}',      [HomeController::class, 'updateBb'])->          name('bb.update');
 Route::get('/home/{bb}/delete', [HomeController::class, 'showDeleteBbForm'])->  name('bb.delete');
 Route::delete('/home/{bb}',     [HomeController::class, 'destroyBb'])->         name('bb.destroy');
-// с последним изменением
+
 Route::get('/{bb}',     [BbsController::class, 'detail'])->         name('detail');
 
-// с последним изменением
 
