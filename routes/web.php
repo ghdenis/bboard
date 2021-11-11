@@ -38,5 +38,8 @@ Route::get('/home/{bb}/delete', [HomeController::class, 'showDeleteBbForm'])->  
 Route::delete('/home/{bb}',     [HomeController::class, 'destroyBb'])->         name('bb.destroy');
 
 Route::get('/{bb}',     [BbsController::class, 'detail'])->         name('detail');
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e80fa5bf9f949fabff6eb2f162ffae153fad6eac
